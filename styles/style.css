@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 96, 102);
+}
+
+.heading{
+    color: #BAA898;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 90px;
+    text-align: center;
+    margin: 40px;
+
+}
+
+.container{
+    display: block;
+    background-color:#ffffff;
+    width: 500px;
+    height: 500px;
+    gap: 0px;
+
+  
+}
+
+.numInput h2{
+        font-family: "Cal Sans", sans-serif;
+        color: #BAA898;
+        margin-top: 50px;
+        font-size: 45px;
+}
+
+#numBox{
+    background-color: #C2847A;
+    border: none;
+    width: 100px;
+    height: 80px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 30px;
+}
+
+.numInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#numEnterButton{
+     background-color: #C2847A;
+    border: none;
+    width: 100px;
+    height: 80px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 30px;
+    margin: 0px 50px;
+    cursor: pointer;
+}
+
+.pixel {
+  background-color: grey;
+
+
+  transition: background-color 5s ease; /* this applies when hover ends */
+}
+
+.pixel:hover {
+  background-color: #C2847A;
+  transition: none; /* instant darken */
+  cursor: pointer;
+}
