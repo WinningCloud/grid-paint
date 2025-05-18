@@ -28,7 +28,7 @@ for(let i = 0; i<pixel_count; i++){
     tempPixel.style.width = `${unitPixelDimension}px`;
     // tempPixel.textContent = `${i}`;
   
-    tempPixel.style.border = `${border_size}px solid black`;
+    
     rowDiv.appendChild(tempPixel);
     // console.log(`${i} pixel appended`);
 }
